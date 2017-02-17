@@ -1,8 +1,5 @@
-
 body{
 	margin: 0;
-	background: #f0f1f5;
-	padding-bottom: 100px;
 }
 
 *{
@@ -22,7 +19,12 @@ img{
 	}
 }
 
-.sentence-box{
-	  width: 700px;
-    margin: 0 auto;
+.container{
+	@extend .clearfix;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.row{
+	@extend .clearfix;
 }

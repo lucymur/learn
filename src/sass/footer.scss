@@ -1,0 +1,52 @@
+
+  .footer{
+    background: #212b3b;
+    padding: 83px 0 74px 0;
+    overflow: hidden;
+  }
+
+  .footer-layout{
+    max-width: 1600px;
+    background: transparent;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+.footer-layout--nav{
+  max-width:356px;
+  float: left;
+}
+
+.footer-nav{
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+}
+
+.foter-nav--item{
+  float: left;
+  margin-right: 20px;
+  a{
+    font-size:20px;
+    color:  #d3d3d3;
+  }
+}
+
+.footer-right{
+  float: right;
+    background: transparent;
+    height: 95px;
+
+    span{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    color: #ffffff;
+    }
+
+    .additionally{
+      font-weight: normal;
+      color: #ccc;
+    }
+}

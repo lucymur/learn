@@ -36,7 +36,6 @@ module.exports = function () {
 			html: [
 				'index.html',
 				'frontpage.html',
-				
 			],
 
 			sass: {

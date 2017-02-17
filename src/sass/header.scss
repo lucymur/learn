@@ -1,21 +1,51 @@
-.header {
-	font-family: Montserrat,sans-serif;
-    font-weight: 700;
-    font-size: 11px;
-    color: #2C333D;
-    text-transform: uppercase;
-    background: #F0F1F5;
+.header{
+	padding: 70px 0;
+    background: transparent;
+    width: 100%;
+    position: absolute;
 
     .logo{
     	display: inline-block;
+    	float: left;
+    }
+
+    ul{
+	    overflow: hidden;
+	    display: inline-block;
+	    margin-top: 25px;
+	    margin-left: 456px;
+	    padding: 0;
+	    list-style-type: none;
+
+    	li{
+    		float: left;
+    	}
+
+    	a{
+    		font-size: 23px;
+           color: #fff;
+           font-weight: bold;
+           margin-right: 60px;
+    	}
     }
 }
-.navbar{
-	position: relative;
-    min-height: 50px;
-    padding-bottom: 10px;
-    padding-top: 30px;
-    border: 1px solid transparent;
-    margin-bottom: 0px;
-}
 
+.header-content{
+    background: transparent;
+    width: 1567px;
+    margin: 0 auto;
+}
+.communication{
+	font-size: 39px;
+    background: transparent;
+    padding: 5px 51px 9px 51px;
+    border-radius: 8px;
+    border: 4px solid #3c9aa2;
+    float: right;
+
+    a{
+    	 color: #3c9aa2;
+        font-size: 27px;
+
+    }
+}
